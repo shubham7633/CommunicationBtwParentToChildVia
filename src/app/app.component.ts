@@ -10,7 +10,7 @@ export class AppComponent {
 
   data  = "test data"
 
-  childData = "child data"
+  childData = "parent data"
   updateData(item: string){
     this.childData = item
   }
