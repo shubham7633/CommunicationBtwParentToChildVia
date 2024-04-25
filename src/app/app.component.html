@@ -1,0 +1,6 @@
+<h2 class="title">Angular 12  communication btw parent to child & child to parent</h2>
+
+
+<app-child [hero]="data" (updateDataEvent)="updateData($event)"></app-child>
+
+<h4>parent component get data from {{childData}}</h4>
